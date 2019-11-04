@@ -153,9 +153,9 @@ body {
     margin-top: 100px;
 }
 
-.content-header:before {
+/* .content-header:before {
     content: '// '
-}
+} */
 
 .work-experience {
     width: 1200px;
