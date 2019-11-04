@@ -47,13 +47,33 @@ body {
     background-size: 100%;
 }
 
-.summary {
-    width: 100%;
+.skills-summary {
+    /* width: 100%; */
+    text-align: justify;
     overflow: hidden;
     padding: 0;
-    margin-top: 120px;
+    /* margin-top: 120px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    font-size: 35px;
+    margin: 120px 50px;
+    /* line-height: 2.2em; */
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+
+  .skills-summary li {
+      padding: 10px;
+  }
+
+  .skills-title {
+      width: 100%;
+      font-size: 1.5em;
+      font-weight: lighter;
+      margin-bottom: 20px;
   }
 
   .technology {
