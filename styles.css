@@ -132,12 +132,11 @@ body {
     align-items: center;
 }
 
-.contact .fas,
-.contact .fab {
-    font-size: 40px;
+.contact-item .fontawesome-icon {
+    height: 40px;
     margin-right: 25px;
     width: 60px;
-    text-align: center;
+    filter: invert(.9)
 }
 
 .software-skills {
@@ -265,6 +264,7 @@ body {
     font-size: 30px;
 }
 
-.hobbies-item .fas {
-    font-size: 100px;
+.hobbies-item .fontawesome-icon {
+    height: 100px;
+    filter: invert(.25)
 }
