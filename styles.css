@@ -104,7 +104,7 @@ body {
 .abstract {
     text-align: justify;
     font-size: 35px;
-    width: 95%;
+    width: 85%;
     margin: 55px auto 0;
     line-height: 1.7;
 }
@@ -121,19 +121,19 @@ body {
     margin-left: 50px;
 }
 
+.work-item {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 35px;
+    height: 250px;
+}
+
 .work-item:last-child {
     height: auto;
 }
 
 .work-item:last-child .work-line {
     border-left: 4px solid transparent;
-}
-
-.work-item {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 35px;
-    height: 250px;
 }
 
 .work-date {
