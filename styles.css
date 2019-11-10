@@ -17,25 +17,25 @@ body {
 
 .sidebar {
     padding-top: 100px;
-    width: 700px;
+    width: 670px;
     height: 100%;
     background: #02486C;
     background-image: linear-gradient(to bottom, #0A1B2D, hsl(211, 41%, 32%));
 }
 
 .sidebar > * {
-    margin: 0 auto 60px !important;
+    margin: 0 auto 150px !important;
 }
 
 .my-name {
     text-align: center;
     font-size: 60px;
     font-weight: lighter;
-    margin: 0;
+    margin: 25px 0;
 }
 
 .my-job {
-    margin: 0;
+    margin: 25px 0;
     text-align: center;
     font-weight: lighter;
 }
@@ -51,15 +51,8 @@ body {
     background-size: 100%;
 }
 
-.abstract {
-    text-align: justify;
-    font-size: 35px;
-    width: 85%;
-    margin: auto;
-}
-
 .skills-summary {
-    width: 86%;
+    width: 85%;
     text-align: justify;
     padding: 0;
     font-size: 35px;
@@ -162,17 +155,25 @@ body {
 /*--------CONTENT--------*/
 
 .content {
-    width: 1220px;
+    width: 1250px;
     height: 100%;
     background: #E9EDF0;
     color: #3C3D3F;
+}
+
+.abstract {
+    text-align: justify;
+    font-size: 35px;
+    width: 95%;
+    margin: 55px auto 0;
+    line-height: 1.7;
 }
 
 .content-header {
     font-weight: lighter;
     font-size: 60px;
     margin-left: 30px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .work-experience {
