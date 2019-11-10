@@ -15,7 +15,7 @@ body {
 
 .sidebar {
     padding-top: 100px;
-    width: 670px;
+    width: 700px;
     height: 100%;
     background: #02486C;
     background-image: linear-gradient(to bottom, #0A1B2D, hsl(211, 41%, 32%));
@@ -56,12 +56,12 @@ body {
 .abstract {
     text-align: justify;
     font-size: 32px;
-    width: 90%;
+    width: 86%;
     margin: auto;
 }
 
 .skills-summary {
-    width: 90%;
+    width: 86%;
     text-align: justify;
     /* overflow: hidden; */
     padding: 0;
@@ -176,7 +176,7 @@ body {
 /*------------------------------*/
 
 .content {
-    width: 1250px;
+    width: 1220px;
     height: 100%;
     background: #E9EDF0;
     color: #3C3D3F;
