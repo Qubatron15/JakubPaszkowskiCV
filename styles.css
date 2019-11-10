@@ -16,32 +16,18 @@ body {
 /*--------SIDEBAR--------*/
 
 .sidebar {
-    padding-top: 100px;
     width: 670px;
     height: 100%;
+    padding-top: 100px;
     background: #02486C;
     background-image: linear-gradient(to bottom, #0A1B2D, hsl(211, 41%, 32%));
 }
 
-.sidebar > * {
-    margin: 0 auto 150px !important;
+.sidebar>* {
+    margin: 0 auto 125px !important;
 }
 
-.my-name {
-    text-align: center;
-    font-size: 60px;
-    font-weight: lighter;
-    margin: 25px 0;
-}
-
-.my-job {
-    margin: 25px 0;
-    text-align: center;
-    font-weight: lighter;
-}
-
-
-.profile-picture {
+.my-picture {
     background: grey;
     width: 320px;
     height: 320px;
@@ -51,67 +37,18 @@ body {
     background-size: 100%;
 }
 
-.skills-summary {
-    width: 85%;
-    text-align: justify;
-    padding: 0;
-    font-size: 35px;
-    margin: 50px 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style-type: none;
-    justify-content: space-between;
-  }
+.my-name {
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 25px 0;
+}
 
-  .skills-summary li:not(.skills-title) {
-      padding: 10px;
-  }
-
-  .skills-title {
-      width: 100%;
-      padding: 10px;
-      font-size: 1.5em;
-      font-weight: lighter;
-  }
-
-  .technology {
-    width: 42%;
-    text-align: right;
-    font-size: 30px;
-    line-height: 50px;
-    padding: 0;
-    margin: 0
-  }
-
-  .language {
-      margin-top: 120px;
-  }
-
-  .skill {
-    width: 45%;
-    text-align: left;
-    padding: 0;
-    margin-left: 20px;
-  }
-
-  .progress-bar {
-      margin-top: 10px;
-      width: 100%;
-      height: 30px;
-      border-radius: 15px;;
-      background: #E9EDF0;
-      display: inline-block;
-  }
-  
-  .value {
-      margin-top: 0;
-      background: #1B86BE;
-      color: #E9EDF0;
-      line-height: 30px;
-      font-size: 25px;
-      text-align: center;
-    }
+.my-proffesion {
+    margin: 25px 0;
+    text-align: center;
+    font-weight: lighter;
+}
 
 .contact {
     width: 73%;
@@ -132,24 +69,27 @@ body {
     filter: invert(.9)
 }
 
-.software-skills {
-    font-size: 35px;
-    margin: 120px 50px 0;
-    list-style-type: none;
+.skills-summary {
+    width: 85%;
+    margin: 50px 50px;
+    padding: 0;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    flex-direction: column;
-    height: 600px;
+    list-style-type: none;
+    justify-content: space-between;
+    text-align: justify;
+    font-size: 35px;
 }
 
-.software-skills li {
+.skills-summary li {
+    padding: 10px;
+}
+
+.skills-title {
     width: 100%;
-    margin-top: 30px;
-}
-
-.software-skills li:before {
-    content: '✓';
-    margin-right: 30px;
+    font-size: 1.5em;
+    font-weight: lighter;
 }
 
 /*--------CONTENT--------*/
