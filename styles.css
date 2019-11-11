@@ -116,7 +116,7 @@ body {
 .content-header {
     font-weight: lighter;
     font-size: 60px;
-    margin: 40px 0 40px 50px;
+    margin: 40px 0 40px 65px;
 }
 
 .work-experience {
@@ -209,6 +209,6 @@ body {
 }
 
 .hobbies-item .fontawesome-icon {
-    height: 100px;
+    height: 80px;
     filter: invert(.25)
 }
