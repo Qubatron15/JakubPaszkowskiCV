@@ -23,7 +23,7 @@ body {
 .sidebar {
     width: 670px;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 80px;
     background: #02486C;
     background-image: linear-gradient(to bottom, #0A1B2D, hsl(211, 41%, 32%));
 }
@@ -53,6 +53,7 @@ body {
     margin: 25px 0;
     font-size: 35px;
     text-align: center;
+    font-weight: bold;
 }
 
 .contact {
@@ -65,6 +66,7 @@ body {
 .contact-item {
     display: flex;
     align-items: center;
+    font-weight: bold;
 }
 
 .contact-item .fontawesome-icon {
@@ -89,11 +91,13 @@ body {
 
 .skills-summary li {
     padding: 10px;
+    font-weight: bold;
 }
 
-.skills-title {
+li.skills-title {
     width: 100%;
     font-size: 60px;
+    font-weight: lighter;
 }
 
 /*--------CONTENT--------*/
@@ -109,7 +113,7 @@ body {
     text-align: justify;
     font-size: 35px;
     width: 90%;
-    margin: 55px auto 0;
+    margin: 75px auto 0;
     line-height: 1.7;
 }
 
@@ -167,6 +171,7 @@ body {
 
 .work-chips {
     font-size: 25px;
+    font-weight: bold;
     height: 40px;
     line-height: 40px;
     border-radius: 20px;
