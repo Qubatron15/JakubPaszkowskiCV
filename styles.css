@@ -75,7 +75,7 @@ body {
 }
 
 .skills-summary {
-    width: 85%;
+    width: 82%;
     margin: 50px 50px;
     padding: 0;
     display: flex;
@@ -199,10 +199,11 @@ body {
 .hobbies {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .hobbies-item {
-    width: 25%;
+    width: 23%;
     text-align: center;
     font-size: 35px;
 }
