@@ -1,9 +1,4 @@
 @font-face {
-    font-family: "Open Sans Regular";
-    src: url("font/OpenSans-Regular.ttf") format("truetype");
-}
-
-@font-face {
     font-family: "Open Sans Light";
     src: url("font/OpenSans-Light.ttf") format("truetype");
 }
@@ -16,7 +11,7 @@ body {
     width: 1920px;
     height: 2740px;
     overflow: hidden;
-    font-family: Open Sans Regular;
+    font-family: "Open Sans Light";
     color: #E9EDF0;
     display: flex;
     flex-wrap: wrap;
@@ -51,15 +46,13 @@ body {
     text-align: center;
     font-size: 60px;
     font-weight: lighter;
-    font-family: "Open Sans Light";
     margin: 25px 0;
 }
 
 .my-proffesion {
     margin: 25px 0;
+    font-size: 35px;
     text-align: center;
-    font-weight: lighter;
-    font-family: "Open Sans Light";
 }
 
 .contact {
@@ -100,9 +93,7 @@ body {
 
 .skills-title {
     width: 100%;
-    font-size: 1.5em;
-    font-weight: lighter;
-    font-family: "Open Sans Light";
+    font-size: 60px;
 }
 
 /*--------CONTENT--------*/
@@ -124,10 +115,8 @@ body {
 
 .content-header {
     font-weight: lighter;
-    font-family: "Open Sans Light";
     font-size: 60px;
-    margin-left: 30px;
-    margin-top: 50px;
+    margin: 40px 0 40px 50px;
 }
 
 .work-experience {
@@ -190,11 +179,10 @@ body {
 
 .work-details {
     font-size: 25px;
-    opacity: 0.8;
 }
 
 .additional-work {
-    font-size: 30px;
+    font-size: 35px;
     padding: 0 150px;
     list-style-type: none;
 }
@@ -216,7 +204,7 @@ body {
 .hobbies-item {
     width: 25%;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .hobbies-item .fontawesome-icon {
