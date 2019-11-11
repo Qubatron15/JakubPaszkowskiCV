@@ -23,7 +23,7 @@ body {
 .sidebar {
     width: 670px;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 65px;
     background: #02486C;
     background-image: linear-gradient(to bottom, #0A1B2D, hsl(211, 41%, 32%));
 }
@@ -106,11 +106,25 @@ body {
 }
 
 .abstract {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* width: 85%; */
+    /* margin: 55px auto 0; */
+}
+
+.abstract-svg-arrow {
+    width: 8%;
+    fill: #0A1B2D;
+}
+
+.abstract-description {
+    width: 85%;
+    line-height: 1.7;
     text-align: justify;
     font-size: 35px;
-    width: 85%;
-    margin: 55px auto 0;
-    line-height: 1.7;
 }
 
 .content-header {
